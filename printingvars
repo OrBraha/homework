@@ -1,0 +1,28 @@
+#!/bin/bash
+## Or Braha ##
+## Homework 25.12.2018 ##
+## This script will print out the following variables:  home, user, display, term, path, histsize ,session_manager, shell, hostname, lang,mail ##
+
+printf "\n"
+printf "Home folder: %s"  $HOME 
+printf "\n"
+printf "User: %s" $USER
+printf "\n"
+printf "Display: %s" $DISPLAY
+printf "\n"
+printf "Term: %s" $TERM
+printf "\n"
+printf "Path: %s" $PATH
+printf "\n"
+printf "Histsize: %s" $HISTSIZE
+printf "\n"
+printf "Session Manager: %s" $SESSION_MANAGER
+printf "\n"
+printf "Shell: %s" $SHELL
+printf "\n"
+printf "Host Name: %s" $HOSTNAME
+printf "\n"
+printf "Language: %s" $LANG
+printf "\n"
+printf "Mail: %s" $MAIL
+printf "\n\n\n"
