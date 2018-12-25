@@ -1,0 +1,20 @@
+#!/bin/bash
+fname="Or"
+lname="Braha"
+uname=$USER
+dob="23.08.1989"
+mail="orr.bracha@gmail.com"
+printf "\n\n"
+printf "My first name is: %s" $fname
+printf "\n"
+printf "My last name is: %s" $lname
+printf "\n"
+printf "My user name is: %s" $uname
+printf "\n\n"
+printf "What is your first name?"
+printf "\n"
+read name
+printf "\n\n"
+printf "Cool story bro, go to hell %s...." $name 
+printf "\n\n"
+
