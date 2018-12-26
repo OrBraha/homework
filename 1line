@@ -1,0 +1,8 @@
+#!/bin/bash
+
+fname="Or"
+lname="Braha"
+user=$USER
+mail="orr.bracha@gmail.com"
+
+printf "\n My first name is: %s \n My last name is: %s \n My user is: %s \n My email is: %s \n\n" $fname $lname $user $mail

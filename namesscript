@@ -1,20 +1,30 @@
 #!/bin/bash
 fname="Or"
 lname="Braha"
-uname=$USER
 dob="23.08.1989"
 mail="orr.bracha@gmail.com"
+## Introduce first name.
+printf "\n\nMy first name is: %s\n" $fname
+## Introduce last name.
+printf "My last name is: %s\n" $lname
+## Introduce user name, no need to define it since $USER linux made variable.
+printf "My user name is: %s \n" $USER
+## Introduce date of birth.
+printf "My date of birth is %s\n" $dob
+## Introduce email.
+printf "My email is: %s \n" $mail
+## Space out.
 printf "\n\n"
-printf "My first name is: %s" $fname
-printf "\n"
-printf "My last name is: %s" $lname
-printf "\n"
-printf "My user name is: %s" $uname
-printf "\n\n"
+## now just for shits and giggles lets ask the user for his name before we let  ## him go.
 printf "What is your first name?"
+## Space out.
 printf "\n"
+## Read user input as variable "name"
 read name
+## Space out.
 printf "\n\n"
+## Send them off with a blessing.
 printf "Cool story bro, go to hell %s...." $name 
+## SPACE THE HELL OUT
 printf "\n\n"
-
+# Fin...
