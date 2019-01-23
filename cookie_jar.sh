@@ -7,8 +7,8 @@
 # Cookie_1 - Copies the contents of /var/log/messages to a new messages.old file and deletes the former.
 # Gets a file name and copies it to user's home folder.
 # Cookie_3 Puts date command output in 3 lines, showing day, month, and year as 2 digit number.
-# Cookie_4 wtf? must mean something with tr
-# Cookie_5 wtf?
+# Cookie_4 Extract user name from Alex's string
+# Cookie_5 More extractions, will follow on virtual machine.
 ############################
 function archive_and_delete {
 sudo cp /var/log/messages /var/log/messages.old
