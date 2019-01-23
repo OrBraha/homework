@@ -3,7 +3,7 @@
 #
 # Name: Or Braha
 # Date: 23.01.2019
-# Purpose: To find files across the system and copy them to home folder.
+# Purpose: Homework, below.
 # Cookie_1 - Copies the contents of /var/log/messages to a new messages.old file and deletes the former.
 # Gets a file name and copies it to user's home folder.
 # Cookie_3 Puts date command output in 3 lines, showing day, month, and year as 2 digit number.
